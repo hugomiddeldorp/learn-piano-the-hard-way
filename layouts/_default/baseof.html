@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
-        {{ $css := resources.Get "css/index.css" }}
+        {{ $css := resources.Get "css/index.css" | fingerprint "md5" }}
         {{ $logo := resources.Get "images/logo.svg" }}
 
         <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" />
