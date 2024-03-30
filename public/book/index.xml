@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Books on Learn Piano the Hard Way</title>
-    <link>http://localhost:1313/book/</link>
-    <description>Recent content in Books on Learn Piano the Hard Way</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language>
-    <atom:link href="http://localhost:1313/book/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Introduction</title>
-      <link>http://localhost:1313/book/chapter-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/chapter-1/</guid>
-      <description>What is a great pianist? Is it someone who is technically precise, who can play fast with no mistakes? Is it someone who has a deep emotional connection to the music and is able to communicate it? Is greatness synonymous with uniqueness &amp;ndash; does this pianist need to bring a unique interpretation to the music? Everyone will have different answers, or at least everyone will weigh certain qualities differently. There is no right answer, nonetheless, answering this question for ourselves is crucial to achieving our goal of becoming a great pianist.</description>
-    </item>
-    <item>
-      <title>Musicality</title>
-      <link>http://localhost:1313/book/chapter-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/chapter-2/</guid>
-      <description>The idea of musicality is surrounded with a shroud of mysticism. It is often thought that people are either born musical or they are not, and that musicality isn&amp;rsquo;t really a skill that can be learned. Taken at face value, that proposition is obviously wrong: babies are born with very little knowledge and acquire almost all of it through learning.&#xA;A stronger argument can be made that there is a critical period in children&amp;rsquo;s development after which musicality cannot be learned.</description>
-    </item>
-    <item>
-      <title>Be a Great Teacher</title>
-      <link>http://localhost:1313/book/chapter-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/book/chapter-3/</guid>
-      <description>As you embark on the journey to master piano playing and become a great musician, you will need to wear two hats: the student, and the teacher.&#xA;As artists, we are often severe and self critical. There is always something wrong with our work and we put ourselves down for it. We are never good enough. Clearly separating between student and teacher mode avoids the self-hatred trap:&#xA;We can adopt a problem solving mentality (teacher) rather than beating ourselves up for being bad (student).</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Books on Learn Piano the Hard Way</title><link>https://learnpianothehardway.com/book/</link><description>Recent content in Books on Learn Piano the Hard Way</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><atom:link href="https://learnpianothehardway.com/book/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://learnpianothehardway.com/book/chapter-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learnpianothehardway.com/book/chapter-1/</guid><description>What is a great pianist? Is it someone who is technically precise, who can play fast with no mistakes? Is it someone who has a deep emotional connection to the music and is able to communicate it? Is greatness synonymous with uniqueness &amp;ndash; does this pianist need to bring a unique interpretation to the music? Everyone will have different answers, or at least everyone will weigh certain qualities differently. There is no right answer, nonetheless, answering this question for ourselves is crucial to achieving our goal of becoming a great pianist.</description></item><item><title>Musicality</title><link>https://learnpianothehardway.com/book/chapter-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learnpianothehardway.com/book/chapter-2/</guid><description>The idea of musicality is surrounded with a shroud of mysticism. It is often thought that people are either born musical or they are not, and that musicality isn&amp;rsquo;t really a skill that can be learned. Taken at face value, that proposition is obviously wrong: babies are born with very little knowledge and acquire almost all of it through learning.
+A stronger argument can be made that there is a critical period in children&amp;rsquo;s development after which musicality cannot be learned.</description></item><item><title>Be a Great Teacher</title><link>https://learnpianothehardway.com/book/chapter-3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learnpianothehardway.com/book/chapter-3/</guid><description>As you embark on the journey to master piano playing and become a great musician, you will need to wear two hats: the student, and the teacher.
+As artists, we are often severe and self critical. There is always something wrong with our work and we put ourselves down for it. We are never good enough. Clearly separating between student and teacher mode avoids the self-hatred trap:
+We can adopt a problem solving mentality (teacher) rather than beating ourselves up for being bad (student).</description></item></channel></rss>
