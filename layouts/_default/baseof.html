@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        {{ $css := resources.Get "css/index.css" }}
+        {{ $logo := resources.Get "images/logo.svg" }}
+
+        <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" />
+        <link rel="shortcut icon" href="{{ $logo.Permalink }}" type="image/x-icon">
+        <title>
+            {{ block "title" . }}
+            {{ .Site.Title }}
+            {{ end }}
+        </title>
+    </head>
+    <body class="bg-stone-100 font-serif text-slate-900 selection:bg-blue-300 selection:text-customblue-900">
+        {{ block "main" . }}
+        {{ end }}
+    </body>
+</html>

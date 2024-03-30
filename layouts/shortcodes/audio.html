@@ -1,0 +1,6 @@
+<figure class="my-4">
+  <audio controls>
+    {{ with .Get "src" }}<source src="{{ .  | relURL }}" type="audio/mp3">{{ end }}
+    Your browser does not support the audio element.
+  </audio>
+</figure>

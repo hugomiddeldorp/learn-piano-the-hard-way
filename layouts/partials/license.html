@@ -1,0 +1,13 @@
+{{ $cc := resources.Get "images/cc.svg" }}
+{{ $by := resources.Get "images/by.svg" }}
+{{ $nc := resources.Get "images/nc.svg" }}
+<div class="my-8">
+  <div class="w-80 mx-auto mb-2 font-sans text-center text-sm text-stone-400">
+    Licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">Creative Commons Attribution-NonCommercial 4.0 International license</a>
+  </div>
+  <div class="flex gap-1 justify-center opacity-50">
+    <img class="h-6" src="{{ $cc.Permalink }}" alt=""/>
+    <img class="h-6" src="{{ $by.Permalink }}" alt=""/>
+    <img class="h-6" src="{{ $nc.Permalink }}" alt=""/>
+  </div>
+</div>

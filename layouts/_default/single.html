@@ -1,0 +1,62 @@
+{{ define "main" }}
+{{ $sidebar_logo := resources.Get "images/sidebar_logo.svg" }}
+<section class="relative max-w-5xl mx-auto mt-8 lg:mt-16">
+  <div class="text-gray-600 mx-auto my-4 max-w-2xl lg:w-80 lg:absolute lg:px-2 lg:right-0">
+    <div class="bg-customblue-900 -mt-8 lg:-mt-20 mb-6 sm:rounded-b-md h-48 px-4 pb-4">
+      <a href="/" >
+      <div class="border-x-2 border-b-2 border-customblue-400 h-full bg-no-repeat bg-center" style="background-image: url({{ $sidebar_logo.Permalink }})">
+      </div>
+      </a>
+    </div>
+    <div class="font-sans w-72 mx-auto flex justify-between gap-2">
+      <div class="text-left">
+        {{ if .NextPage }}
+        <a href="{{ .NextPage.Permalink }}">< {{ .NextPage.Title }}</a>
+        {{ else }}
+        <a href="/">< Home</a>
+        {{ end }}
+      </div>
+      <div class="text-center shrink">
+        •
+      </div>
+      <div class="text-right">
+        {{ if .PrevPage }}
+        <a href="{{ .PrevPage.Permalink }}">{{ .PrevPage.Title }} ></a>
+        {{ else }}
+        Coming soon...
+        {{ end }}
+      </div>
+    </div>
+    <div class="mt-8 hidden lg:block">
+      <h3 class="not-italic font-bold text-lg">Table of Contents</h3>
+      {{ .TableOfContents }}
+    </div>
+  </div>
+  <div class="relative max-w-2xl text-xl leading-relaxed px-4 mt-8 mx-auto lg:mx-0 lg:p-0">
+    <h1 class="text-5xl font-display mb-8 text-customblue-900">{{ .Title }}</h1>
+      <article class="lg:pr-10">
+        {{ .Content }}
+      </article>
+      <div class="text-gray-600 text-base font-sans w-72 mx-auto my-4 flex justify-between gap-2">
+        <div class="text-left">
+          {{ if .NextPage }}
+          <a href="{{ .NextPage.Permalink }}">< {{ .NextPage.Title }}</a>
+          {{ else }}
+          <a href="/">< Home</a>
+          {{ end }}
+        </div>
+        <div class="text-center">
+          •
+        </div>
+        <div class="text-right">
+          {{ if .PrevPage }}
+          <a href="{{ .PrevPage.Permalink }}">{{ .PrevPage.Title }} ></a>
+          {{ else }}
+          Coming soon...
+          {{ end }}
+        </div>
+      </div>
+    {{ partial "license.html" }}
+  </div>
+</section>
+{{ end }}

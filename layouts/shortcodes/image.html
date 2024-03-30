@@ -1,0 +1,4 @@
+<figure class="my-4 text-center">
+  <img class="mx-auto" src="{{ .Get "src" }}" alt=""/>
+  <figcaption class="text-base italic">{{ .Get "caption" }} {{ with .Get "url" }} (<a class="text-sky-800" href="{{ . }}" target="_blank">source</a>){{ end }}</figcaption>
+</figure>

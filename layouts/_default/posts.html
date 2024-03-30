@@ -1,0 +1,10 @@
+{{ define "main" }}
+<main class="max-w-xl mx-auto">
+    <div>
+        {{ range .Paginator.Pages }}
+        {{ .Render "summary" }}
+        {{ end }}
+        {{ template "_internal/pagination.html" . }}
+    </div>
+</main>
+{{ end }}

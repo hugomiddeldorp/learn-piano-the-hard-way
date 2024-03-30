@@ -1,0 +1,43 @@
+{{ $m := slice
+  (dict "left" "Soft" "right" "Hard")
+  (dict "left" "Smooth" "right" "Rough")
+  (dict "left" "Dull" "right" "Sharp")
+  (dict "left" "Dark" "right" "Bright")
+  (dict "left" "Steady" "right" "Fluttering")
+  (dict "left" "Strong" "right" "Weak")
+  (dict "left" "Rounded" "right" "Angular")
+  (dict "left" "Mild" "right" "Intense")
+  (dict "left" "Rugged" "right" "Delicate")
+}}
+
+<div class="grid grid-cols-4 gap-y-4 text-center font-sans bg-stone-200 text-stone-700 text-base rounded-md py-8 my-4">
+  {{ range $m }}
+  <div>
+    {{ .left }}
+  </div>
+  <div class="col-span-2">
+    <form>
+      <div class="grid grid-cols-5">
+        <div>
+          <input type="radio" class="accent-customblue-400" name="{{ .left }}" id="">
+        </div>
+        <div>
+          <input type="radio" class="accent-customblue-400" name="{{ .left }}" id="">
+        </div>
+        <div>
+          <input type="radio" class="accent-customblue-400" name="{{ .left }}" id="">
+        </div>
+        <div>
+          <input type="radio" class="accent-customblue-400" name="{{ .left }}" id="">
+        </div>
+        <div>
+          <input type="radio" class="accent-customblue-400" name="{{ .left }}" id="">
+        </div>
+      </div>
+    </form>
+  </div>
+  <div>
+    {{ .right }}
+  </div>
+  {{ end }}
+</div>

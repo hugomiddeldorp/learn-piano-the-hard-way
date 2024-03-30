@@ -1,0 +1,6 @@
+<details class="font-sans text-base text-stone-700 p-6 open:mb-4 open:bg-stone-200 rounded-md">
+  <summary class="hover:cursor-pointer mb-3">{{ .Get 0 }}</summary>
+  <div class="mt-3">
+    {{ .Inner | markdownify }}
+  </div>
+</details>
