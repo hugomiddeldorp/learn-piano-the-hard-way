@@ -7,6 +7,10 @@ article p {
     margin-bottom: 0.8em;
 }
 
+article a {
+    text-decoration: underline;
+}
+
 @layer base {
     #sidenote a {
         text-decoration: underline;
