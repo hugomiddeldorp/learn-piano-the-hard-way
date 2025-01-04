@@ -11,6 +11,10 @@ article a {
     text-decoration: underline;
 }
 
+article hr {
+    margin: 2rem 0 2rem 0;
+}
+
 @layer base {
     #sidenote a {
         text-decoration: underline;

@@ -51,9 +51,10 @@ For our purpose of becoming a great pianist, the distribution of talent is irrel
 
 This book is structured in three parts.
 The first part serves as an introduction to my concept of musicality, the foundational quality of a great pianist. This is essential reading if you want to understand the method and get anything out of this book.
-The second part is the curriculum, the repertoire. Every skill you will learn in this book will be through music. Playing piano takes separate and identifiable skills but learning them will always occur in a unified context.
-This section is progressive and will begin from the very first piano lesson and go all the way through to advanced concepts. I recommend reading this section in order, but feel free to jump ahead if it feels too easy. Every piece builds on previous knowledge, so if you find yourself lost or out of your depth, look at the prerequisites for that piece.
-In the final section I outline the limits of online educational resources like this one. I also give my thoughts on perpetually continuing your journey of self education and improvement.
+In the second part, I discuss the specifics of learning the piano: how to select
+repertoire, how to learn pieces, how to practise.
+In the final section I discuss topics beyond simply learning piano repertoire,
+topics such as composition, improvisation, ear training, and performance.
 A collection of reference material for technique and theory is also available for more detailed individual study or searching purposes.
 
 A great piano teacher is impossible to replace. However, great piano teachers can be hard to find and expensive. With the decreasing cost of high quality online learning resources, self-learning piano seems like a reasonable and cost effective option.
