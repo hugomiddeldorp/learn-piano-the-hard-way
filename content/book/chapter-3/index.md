@@ -24,7 +24,8 @@ Playing piano builds us an ego, and we need a good teacher to keep it in check. 
 Quality feedback is one of the best things a teacher can provide. If you have never had a lesson with a great teacher, I would recommend finding one and getting a few lessons to see what I mean. It's difficult to know what you're missing until you've experienced it.
 
 Reviewing at its core, is about comparing *what was* with *what could be*. In other words it's about comparing what you played compared to what your ideal is.
-And this is why it is so important to have a strong [artistic image]({{< ref "/chapter-2#artistic-image" >}}).
+And this is why it is so important to have a strong [artistic image]({{< ref
+"/book/chapter-2/#artistic-image" >}}).
 
 A review should only be about the product: what's good about it and what's bad about it. Nothing else.
 In this case, the only thing that matters, the only thing that's under review is the music.

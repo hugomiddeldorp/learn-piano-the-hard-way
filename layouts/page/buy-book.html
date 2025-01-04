@@ -23,13 +23,9 @@
         {{ if .Prev }}
         <a href="{{ .Prev.Permalink }}">{{ .Prev.Title }} ></a>
         {{ else }}
-        <a href="/">Return Home</a>
+        Coming soon...
         {{ end }}
       </div>
-    </div>
-    <div class="mt-8 hidden lg:block">
-      <h3 class="not-italic font-bold text-lg">Table of Contents</h3>
-      {{ .TableOfContents }}
     </div>
   </div>
   <div class="relative max-w-2xl text-xl leading-relaxed px-4 mt-8 mx-auto lg:mx-0 lg:p-0">
@@ -37,28 +33,6 @@
       <article class="lg:pr-10">
         {{ .Content }}
       </article>
-      <div class="bg-stone-200 text-stone-700 text-base font-sans rounded-md p-6">
-        Please support this book by buying it <a href="/buy-book" class="underline">here</a>.
-      </div>
-      <div class="text-gray-600 text-base font-sans w-72 mx-auto my-4 flex justify-between gap-2">
-        <div class="text-left">
-          {{ if .Next }}
-          <a href="{{ .Next.Permalink }}">< {{ .Next.Title }}</a>
-          {{ else }}
-          <a href="/">< Home</a>
-          {{ end }}
-        </div>
-        <div class="text-center">
-          •
-        </div>
-        <div class="text-right">
-          {{ if .Prev }}
-          <a href="{{ .Prev.Permalink }}">{{ .Prev.Title }} ></a>
-          {{ else }}
-          <a href="/">Return Home</a>
-          {{ end }}
-        </div>
-      </div>
     {{ partial "license.html" }}
   </div>
 </section>
