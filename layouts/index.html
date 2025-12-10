@@ -2,11 +2,12 @@
 {{ $cover := resources.Get "images/cover.svg" }}
 <main class="max-w-3xl mx-auto md:pt-12">
   <div class="bg-customblue-900 md:mx-7 p-7">
-    <div class="bg-no-repeat bg-center h-96 border-4 border-customblue-400" style="background-image: url({{ $cover.Permalink }})"></div>
+    <div class="bg-no-repeat bg-center h-96 border-4 border-customblue-400 place-content-center" style="background-image: url({{ $cover.Permalink }})"></div>
   </div>
   <div class="-mt-12 bg-customblue-400 md:rounded-lg py-6 text-stone-100 text-center">
     <h2 class="m-0 text-xl italic">Hugo Middeldorp</h2>
     <h1 class="text-3xl font-bold">{{ .Site.Title }}</h1>
+    <a href="/book/chapter-1" class="text-xl underline">Start reading now</a>
   </div>
   <div class="text-xl px-6 mt-8">
     <div class="text-center">
